@@ -1,0 +1,20 @@
+.container-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.botao {
+    width: 230px;
+    height: 35px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 15px;
+    color: hsl(225, 100%, 98%);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+}
